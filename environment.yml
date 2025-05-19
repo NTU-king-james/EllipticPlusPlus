@@ -1,0 +1,21 @@
+name: elliptic-fork
+channels:
+  - pytorch
+  - pyg
+  - conda-forge
+  - defaults
+dependencies:
+  - python=3.10
+  - numpy
+  - pandas
+  - matplotlib
+  - seaborn
+  - scikit-learn
+  - networkx
+  - pip
+  - pip:
+      - gdown
+      - plotly
+      - torch
+      - torch-geometric
+      - xgboost
